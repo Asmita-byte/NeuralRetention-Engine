@@ -1,8 +1,9 @@
 tensorflow==2.15.0
+keras==2.15.0
 pandas 
 numpy 
 scikit-learn
 tensorboard
 streamlit
-scikeras
 altair==4.2.2
+h5py
