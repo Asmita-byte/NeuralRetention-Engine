@@ -20,6 +20,9 @@ def load_my_model():
 
 model = load_my_model()
 
+import gc 
+gc.collect()
+
 st.title('Customer Churn Prediction')
 
 
