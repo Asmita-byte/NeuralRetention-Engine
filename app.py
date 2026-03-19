@@ -14,8 +14,11 @@ with open ('onehot_encoder_geo.pkl', 'rb') as file:
 with open ('scaler.pkl', 'rb') as file:
     scaler=pickle.load(file)
 
-model=tf.keras.models.load_model('model.h5')
+@st.cache_resource
+def load_my_model():
+    return tf.keras.models.load_model('model.h5')
 
+model = load_my_model()
 
 st.title('Customer Churn Prediction')
 
