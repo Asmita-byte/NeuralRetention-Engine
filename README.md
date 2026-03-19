@@ -34,7 +34,8 @@
     Follow these steps to set up the environment:
 
         1. Clone the repository:
-            git clone https://github.com/your-username/AttritionShield.git
+            git clone https://github.com/Asmita-byte/NeuralRetention-Engine.git
+            
 
         2. Install the necessary dependencies:
             pip install -r requirements.txt
