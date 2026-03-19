@@ -1,8 +1,7 @@
-tensorflow-cpu==2.15.0
-pandas
-numpy < 2.0.0
+tensorflow==2.15.0
+pandas 
+numpy 
 scikit-learn
 tensorboard
-streamlit >= 1.24.0
-protobuf==3.20.3
-altair==4.2.2
+streamlit
+scikeras
