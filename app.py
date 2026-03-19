@@ -14,7 +14,9 @@ with open ('onehot_encoder_geo.pkl', 'rb') as file:
 with open ('scaler.pkl', 'rb') as file:
     scaler=pickle.load(file)
 
-model= tf.keras.models.load_model('model.h5', compile=False)
+model= tf.keras.models.load_model('model.h5')
+model.save("model.keras")
+model= tf.keras.models.load_model('model.keras', compile=False)
 
 
 import gc 
