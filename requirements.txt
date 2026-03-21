@@ -6,4 +6,3 @@ scikit-learn
 tensorboard
 streamlit
 altair==4.2.2
-h5py
